@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    background-color: lightslategray;
+    background-color: rgb(87, 31, 74);
 }
 
 .btn {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 20%;
     border: 10px solid black;
     margin: 1rem;
@@ -39,3 +39,10 @@ body {
 .userflash {
     background-color: greenyellow;
 }
+
+@media only screen and (max-width:600px){
+    .btn-container{
+     scale: 0.5;
+ 
+    }
+ }
