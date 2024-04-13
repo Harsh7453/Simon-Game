@@ -40,6 +40,14 @@ body {
     background-color: greenyellow;
 }
 
+.play{
+height: 25px;
+width: 100px;
+border: 1px solid rgb(1, 18, 9);
+background-color: springgreen;
+border-radius:2px ;
+}
+
 @media only screen and (max-width:600px){
     .btn-container{
      scale: 0.5;
